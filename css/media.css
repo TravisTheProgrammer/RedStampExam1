@@ -1,0 +1,126 @@
+/*
+ * CSS Media Queries
+ * Adding a media query for smaller screens, to boost text size for readability.
+ */
+ 
+@media only screen and (max-width: 700px) {
+	
+.TRACTION {
+	font-size: 26px;
+}
+
+.tip-container{
+	margin-top: 1.75em;
+}
+
+.tip-content-container{
+	padding-right: 1em;
+}
+
+.tip-title {
+	font-size: 40px;
+	padding-top: 1em;
+}
+
+.tip-content {
+	font-size: 36px;
+	padding-top: 0.5em;
+}
+
+.read-more-container{
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+.read-more {
+	font-size: 26px;
+}
+
+.single-blogpost-text-container{
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+}
+
+.single-blogpost-title {
+	font-size: 40px;
+	
+	padding-top: 0.25em;
+}
+
+.single-blogpost-content {
+	font-size: 36px;
+	
+	padding-top: 0.5em;
+}
+
+#header-container{
+	padding-top: 0.5em;
+}
+
+#redstamp-logo-header{
+	 background-image: url("../images/rs-logo.svg");
+	 width: 318px;
+ 	 height: 81px;
+	 background-size: 318px 81px;
+}
+
+#view-browser-header-link{
+	font-size: 30px;
+}
+
+#header-subtext{
+	font-size: 36px;
+	padding-top: 0.5em;
+}
+
+#main-article-title-container{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+#main-article-title{
+	font-size: 52px;
+	padding-top: 0.5em;
+}
+
+#main-article-content{
+	font-size: 36px;
+	padding-top: 0.5em;
+	padding-right: 1em;
+}
+
+#main-tips-main-title{
+	font-size: 60px;
+}
+
+#main-tips-subtitle {
+	font-size: 38px;
+}
+
+#blogposts-title {
+	font-size: 60px;
+}
+
+#blogposts-subtitle {
+	font-size: 36px;
+}
+
+#footer-announcement-content {
+	font-size: 32px;
+}
+
+#footer-unsubscribe {
+	font-size: 30px;
+}
+
+#footer-view-in-browser {
+	font-size: 30px;
+}
+
+#copyright-text {
+	font-size: 30px;
+}
+	
+}
